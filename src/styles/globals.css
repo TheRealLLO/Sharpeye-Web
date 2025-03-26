@@ -1,0 +1,260 @@
+html,
+body {
+  overflow-x: hidden;
+}
+/* .container.content{
+  display: flex !important;
+  flex-wrap: nowrap;
+}
+.container.content img {
+  width: 250px;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.teamimg img {
+  border-radius: 50%;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.ekip {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education-parts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.education-parts .part {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 50px 80px;
+  justify-content: space-between;
+}
+
+.education-parts .part .head {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-parts div p {
+  line-height: 2.4rem;
+}
+
+.education-parts div h3 {
+  color: #39aa35;
+  cursor: pointer;
+}
+
+.education-parts div ul {
+  line-height: 2.5rem;
+}
+
+.modal-video {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.lg-backdrop {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.lg-react-element {
+  display: none;
+}
+
+.lg-container,
+.lg-container * {
+  direction: ltr !important;
+}
+
+.rc-slider-handle {
+  border-color: var(--clr-style) !important;
+  background-color: var(--clr-style) !important;
+  opacity: 1 !important;
+}
+
+.rc-slider-handle-dragging {
+  box-shadow: 0 0 0 2px var(--clr-style) !important;
+}
+
+.related-products-slider .swiper-container,
+.slider-3items .swiper-container,
+.screenshots-slider .swiper-container {
+  direction: ltr !important;
+}
+
+.pricing.style-8 .rc-slider-handle {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.carousel .control-dots {
+  position: static !important;
+}
+
+.list-ul ul {
+  width: 50%;
+  list-style-type: none;
+}
+
+.social-media-icons-mobil {
+  display: none;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0px 10px;
+}
+
+.contact-form {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form p {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.contact-form input,
+textarea,
+button {
+  border: 1px solid grey;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: white;
+}
+
+.contact-form input,
+button {
+  padding: 5px 10px;
+}
+
+.contact-form textarea {
+  padding: 5px 10px;
+  height: 150px;
+}
+.info .home-title{
+  font-size: 2.4rem !important;
+}
+@media only screen and (max-width: 1300px) {
+  .social-media-icons {
+    display: none;
+  }
+
+  .social-media-icons-mobil {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--color-red2);
+    padding: 5px;
+  }
+
+  .social-media-icons-mobil a:hover {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .featuresContainer {
+   flex-direction: column !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-on-mobile{
+    display: none;
+  }
+  .contact-form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .languages {
+    font-size: 13px;
+    justify-content: center;
+    padding: 0;
+  }
+
+
+
+
+  .top-navbar.style-15 {
+    padding: 10px;
+  }
+
+  .top-navbar.style-15 a {
+    padding: 10px;
+  }
+
+  .team-index {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .foot-logo {
+    width: 50%;
+    margin: 0px;
+  }
+
+  .team-people {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .education-parts {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .education-parts .part{
+    width: 100%;
+    padding: 10px 0px;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* EDUCATION PAGE */
+@media only screen and (max-width: 1170px) {
+  .videoContainer {
+    flex-direction: column !important;
+  }
+  .educationSet {
+    flex-direction: column !important;
+  }
+}
